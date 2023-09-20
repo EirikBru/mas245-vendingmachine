@@ -23,8 +23,13 @@ int main()
     Soda cola("Colabrus", 34, 4);
     // We have a variable named cola with Soda as its data type.
 
+    // Added new soda
+    Soda trylledrikk("Trolldrikk", 25, 5);
+
     // Call the VendingMachine addType function with cola variable as parameter.
     vendingMachine.addType(cola);
+    // Add Trolldrikk as wel
+    vendingMachine.addType(trylledrikk);
     // Print inventory using public printInventory member function (method).
     vendingMachine.printInventory();
 
